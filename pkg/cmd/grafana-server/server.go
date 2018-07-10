@@ -12,31 +12,31 @@ import (
 	"time"
 
 	"github.com/facebookgo/inject"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/registry"
+	"github.com/mareebsiddiqui/grafana/pkg/bus"
+	"github.com/mareebsiddiqui/grafana/pkg/middleware"
+	"github.com/mareebsiddiqui/grafana/pkg/registry"
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/grafana/pkg/api"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/login"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/mareebsiddiqui/grafana/pkg/api"
+	"github.com/mareebsiddiqui/grafana/pkg/log"
+	"github.com/mareebsiddiqui/grafana/pkg/login"
+	"github.com/mareebsiddiqui/grafana/pkg/setting"
 
-	"github.com/grafana/grafana/pkg/social"
+	"github.com/mareebsiddiqui/grafana/pkg/social"
 
 	// self registering services
-	_ "github.com/grafana/grafana/pkg/extensions"
-	_ "github.com/grafana/grafana/pkg/metrics"
-	_ "github.com/grafana/grafana/pkg/plugins"
-	_ "github.com/grafana/grafana/pkg/services/alerting"
-	_ "github.com/grafana/grafana/pkg/services/cleanup"
-	_ "github.com/grafana/grafana/pkg/services/notifications"
-	_ "github.com/grafana/grafana/pkg/services/provisioning"
-	_ "github.com/grafana/grafana/pkg/services/rendering"
-	_ "github.com/grafana/grafana/pkg/services/search"
-	_ "github.com/grafana/grafana/pkg/services/sqlstore"
-	_ "github.com/grafana/grafana/pkg/tracing"
+	_ "github.com/mareebsiddiqui/grafana/pkg/extensions"
+	_ "github.com/mareebsiddiqui/grafana/pkg/metrics"
+	_ "github.com/mareebsiddiqui/grafana/pkg/plugins"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/alerting"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/cleanup"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/notifications"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/provisioning"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/rendering"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/search"
+	_ "github.com/mareebsiddiqui/grafana/pkg/services/sqlstore"
+	_ "github.com/mareebsiddiqui/grafana/pkg/tracing"
 )
 
 func NewGrafanaServer() *GrafanaServerImpl {

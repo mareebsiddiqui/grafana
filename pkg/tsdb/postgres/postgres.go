@@ -9,10 +9,10 @@ import (
 	"strconv"
 
 	"github.com/go-xorm/core"
-	"github.com/grafana/grafana/pkg/components/null"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/mareebsiddiqui/grafana/pkg/components/null"
+	"github.com/mareebsiddiqui/grafana/pkg/log"
+	"github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/tsdb"
 )
 
 type PostgresQueryEndpoint struct {

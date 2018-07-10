@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	m "github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/setting"
 )
 
 var (

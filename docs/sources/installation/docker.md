@@ -69,7 +69,7 @@ docker run \
 
 ## Building a custom Grafana image with pre-installed plugins
 
-In the [grafana-docker](https://github.com/grafana/grafana-docker/)  there is a folder called `custom/` which includes a `Dockerfile` that can be used to build a custom Grafana image.  It accepts `GRAFANA_VERSION` and `GF_INSTALL_PLUGINS` as build arguments.
+In the [grafana-docker](https://github.com/mareebsiddiqui/grafana-docker/)  there is a folder called `custom/` which includes a `Dockerfile` that can be used to build a custom Grafana image.  It accepts `GRAFANA_VERSION` and `GF_INSTALL_PLUGINS` as build arguments.
 
 Example of how to build and run:
 ```bash

@@ -11,11 +11,11 @@ import (
 
 	macaron "gopkg.in/macaron.v1"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/mareebsiddiqui/grafana/pkg/components/simplejson"
+	m "github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/plugins"
+	"github.com/mareebsiddiqui/grafana/pkg/setting"
+	"github.com/mareebsiddiqui/grafana/pkg/util"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

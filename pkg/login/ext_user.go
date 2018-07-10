@@ -1,10 +1,10 @@
 package login
 
 import (
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/quota"
+	"github.com/mareebsiddiqui/grafana/pkg/bus"
+	"github.com/mareebsiddiqui/grafana/pkg/log"
+	m "github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/services/quota"
 )
 
 func init() {

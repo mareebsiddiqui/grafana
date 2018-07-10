@@ -1,9 +1,9 @@
 package tsdb
 
 import (
-	"github.com/grafana/grafana/pkg/components/null"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/components/null"
+	"github.com/mareebsiddiqui/grafana/pkg/components/simplejson"
+	"github.com/mareebsiddiqui/grafana/pkg/models"
 )
 
 type TsdbQuery struct {

@@ -7,10 +7,10 @@
 echo "building enterprise version"
 
 GOPATH=/go
-REPO_PATH=$GOPATH/src/github.com/grafana/grafana
+REPO_PATH=$GOPATH/src/github.com/mareebsiddiqui/grafana
 
 
-cd /go/src/github.com/grafana/grafana
+cd /go/src/github.com/mareebsiddiqui/grafana
 echo "current dir: $(pwd)"
 
 cd ..

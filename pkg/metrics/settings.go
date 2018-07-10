@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/metrics/graphitebridge"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/mareebsiddiqui/grafana/pkg/metrics/graphitebridge"
+	"github.com/mareebsiddiqui/grafana/pkg/setting"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

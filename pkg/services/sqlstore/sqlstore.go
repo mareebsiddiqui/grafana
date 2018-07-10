@@ -10,22 +10,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/registry"
-	"github.com/grafana/grafana/pkg/services/annotations"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrations"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrator"
-	"github.com/grafana/grafana/pkg/services/sqlstore/sqlutil"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/mareebsiddiqui/grafana/pkg/bus"
+	"github.com/mareebsiddiqui/grafana/pkg/log"
+	m "github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/registry"
+	"github.com/mareebsiddiqui/grafana/pkg/services/annotations"
+	"github.com/mareebsiddiqui/grafana/pkg/services/sqlstore/migrations"
+	"github.com/mareebsiddiqui/grafana/pkg/services/sqlstore/migrator"
+	"github.com/mareebsiddiqui/grafana/pkg/services/sqlstore/sqlutil"
+	"github.com/mareebsiddiqui/grafana/pkg/setting"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 
-	_ "github.com/grafana/grafana/pkg/tsdb/mssql"
+	_ "github.com/mareebsiddiqui/grafana/pkg/tsdb/mssql"
 )
 
 var (

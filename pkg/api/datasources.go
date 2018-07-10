@@ -3,11 +3,11 @@ package api
 import (
 	"sort"
 
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/mareebsiddiqui/grafana/pkg/api/dtos"
+	"github.com/mareebsiddiqui/grafana/pkg/bus"
+	m "github.com/mareebsiddiqui/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/plugins"
+	"github.com/mareebsiddiqui/grafana/pkg/util"
 )
 
 func GetDataSources(c *m.ReqContext) Response {

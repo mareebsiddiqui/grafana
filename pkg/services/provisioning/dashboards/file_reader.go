@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/services/dashboards"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/mareebsiddiqui/grafana/pkg/services/dashboards"
+	"github.com/mareebsiddiqui/grafana/pkg/util"
 
-	"github.com/grafana/grafana/pkg/bus"
+	"github.com/mareebsiddiqui/grafana/pkg/bus"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/mareebsiddiqui/grafana/pkg/components/simplejson"
+	"github.com/mareebsiddiqui/grafana/pkg/log"
+	"github.com/mareebsiddiqui/grafana/pkg/models"
 )
 
 var (

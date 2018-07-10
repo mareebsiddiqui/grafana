@@ -21,7 +21,7 @@ jobs:
           MYSQL_DATABASE: grafana_tests
           MYSQL_USER: grafana
           MYSQL_PASSWORD: password
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
         - checkout
         - run: sudo apt update
@@ -40,7 +40,7 @@ jobs:
           POSTGRES_USER: grafanatest
           POSTGRES_PASSWORD: grafanatest
           POSTGRES_DB: grafanatest
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
         - checkout
         - run: sudo apt update
@@ -73,7 +73,7 @@ jobs:
         environment:
           # we need CGO because of go-sqlite3
           CGO_ENABLED: 1
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
       - checkout
       - run: 'go get -u gopkg.in/alecthomas/gometalinter.v2'
@@ -110,7 +110,7 @@ jobs:
   test-backend:
     docker:
       - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
       - checkout
       - run:
@@ -120,7 +120,7 @@ jobs:
   build-all:
     docker:
      - image: grafana/build-container:1.0.0
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
       - checkout
       - run:
@@ -159,7 +159,7 @@ jobs:
   build-enterprise:
     docker:
      - image: grafana/build-container:v0.1
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/mareebsiddiqui/grafana
     steps:
       - checkout
       - run:
