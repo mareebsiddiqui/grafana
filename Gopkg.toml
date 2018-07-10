@@ -101,7 +101,7 @@ ignored = [
 
 [[constraint]]
   branch = "master"
-  name = "github.com/mareebsiddiqui/grafana-plugin-model"
+  name = "github.com/grafana/grafana-plugin-model"
 
 [[constraint]]
   branch = "master"

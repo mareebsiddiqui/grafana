@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mareebsiddiqui/grafana-plugin-model/go/datasource"
+	"github.com/grafana/grafana-plugin-model/go/datasource"
 	"github.com/mareebsiddiqui/grafana/pkg/components/null"
 	"github.com/mareebsiddiqui/grafana/pkg/components/simplejson"
 	"github.com/mareebsiddiqui/grafana/pkg/log"

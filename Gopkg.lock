@@ -227,7 +227,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/mareebsiddiqui/grafana-plugin-model"
+  name = "github.com/grafana/grafana-plugin-model"
   packages = [
     "go/datasource",
     "go/renderer"

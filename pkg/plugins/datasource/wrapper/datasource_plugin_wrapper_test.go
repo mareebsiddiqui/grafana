@@ -3,7 +3,7 @@ package wrapper
 import (
 	"testing"
 
-	"github.com/mareebsiddiqui/grafana-plugin-model/go/datasource"
+	"github.com/grafana/grafana-plugin-model/go/datasource"
 	"github.com/mareebsiddiqui/grafana/pkg/log"
 	"github.com/mareebsiddiqui/grafana/pkg/tsdb"
 )

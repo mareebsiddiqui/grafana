@@ -149,7 +149,7 @@ auto_sign_up = true
 
 ##### Grafana Container
 
-For this example, we use the official Grafana docker image available at [Docker Hub](https://hub.docker.com/r/grafana/grafana/)
+For this example, we use the official Grafana docker image available at [Docker Hub](https://hub.docker.com/r/mareebsiddiqui/grafana/)
 
 * Create a file `grafana.ini` with the following contents
 

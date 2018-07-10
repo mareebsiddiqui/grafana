@@ -7,7 +7,7 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	pluginModel "github.com/mareebsiddiqui/grafana-plugin-model/go/renderer"
+	pluginModel "github.com/grafana/grafana-plugin-model/go/renderer"
 	"github.com/mareebsiddiqui/grafana/pkg/log"
 	"github.com/mareebsiddiqui/grafana/pkg/middleware"
 	"github.com/mareebsiddiqui/grafana/pkg/models"
