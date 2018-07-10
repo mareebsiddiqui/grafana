@@ -288,6 +288,9 @@ export function setupAngularRoutes($routeProvider, $locationProvider) {
       controller: 'AlertNotificationEditCtrl',
       controllerAs: 'ctrl',
     })
+    .when('/configurations', {
+      templateUrl: 'public/app/core/configurations/index.html?'+Date.now()
+    })
     .otherwise({
       templateUrl: 'public/app/partials/error.html',
       controller: 'ErrorCtrl',
